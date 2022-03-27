@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&family=Raleway:ital,wght@0,500;1,400&display=swap');
+
+// Fonts
+$font-title: "Rajdhani", sans-serif;
+$font-p: "Raleway", sans-serif;
+
+// Color scheme
+$dark-yellow: FFD100;
+$light-yellow: FFEE32;
+$dark-grey: 202020;
+$light-grey: 333533;
+$black: 000000;
+$white: FFFFFF;
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  max-width: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+.hero {
+  position: relative;
+
+  video {
+    z-index: -99;
+    position: relative;
+    width: 100%;
+  }
+
+  div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  // video {
+  //   min-width: 100%;
+  //   min-height: 100%;
+
+  //   z-index: -99;
+  // }
+
+  // .center-text {
+  //   width: 35%;
+  //   position: absolute;
+  //   top: 40%;
+  //   left: 32%;
+  //   z-index: 99;
+
+  //   color: white;
+  //   font-size: 1.5rem;
+  //   text-align: center;
+
+  //   h1 { font-size: 3rem; }
+  // }
+
+  // .jump-to {
+  //   position: absolute;
+  //   z-index: 99;
+  //   bottom: .3rem;
+  //   width: 100%;
+
+  //   background-color: rgba(0, 0, 0, 0.15);
+
+  //   svg {
+  //     position: relative;
+  //     top: .2rem;
+  //     left: 49%;
+
+  //     transform: rotate(90deg);
+  //     filter:invert(1);
+  //   }
+  // }
+}
